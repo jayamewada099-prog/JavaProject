@@ -25,16 +25,16 @@ Project Structure:
      ├── Student.java
      ├── GradeCalculator.java
      ├── InvalidMarksException.java
-  1. Student.java 
+  1. Student.java :
      Stores student details and keeps fields private for encapsulation.
   
-  2. InvalidMarksException.java
+  2. InvalidMarksException.java :
      A custom exception used when the user enters marks outside the valid range (0–100).
   
-  3. GradeCalculator.java
+  3. GradeCalculator.java :
      Contains the logic for grade calculation and throws the custom exception when needed.
   
-  4. Main.java
+  4. Main.java :
      Handles user input, displays results, and catches errors.
 
 How to Run:
