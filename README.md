@@ -4,29 +4,61 @@ The project allows a user to enter basic student details, validate marks, and ca
 
 It was created as a beginner‑friendly assignment after learning the fundamentals of classes, objects, constructors, encapsulation, and custom exceptions.
 
-Features
-Add a student's name, roll number, and marks
+Features:
+  -> Add a student's name, roll number, and marks.
+  -> Validate marks using a custom exception.
+  -> Calculate a grade based on the marks.
+  -> Clean separation of logic using multiple classes
+  -> Proper use of OOP concepts:
+    -> Classes & objects
+    -> Encapsulation (private fields + getters/setters)
+    -> Constructors
+    -> Simple method logic
+  -> Basic exception handling:
+    -> try / catch
+    -> InputMismatchException
+    -> Custom exception: InvalidMarksException
+    
+Project Structure:
+    src/
+     ├── Main.java
+     ├── Student.java
+     ├── GradeCalculator.java
+     ├── InvalidMarksException.java
+  1. Student.java 
+     Stores student details and keeps fields private for encapsulation.
+  
+  2. InvalidMarksException.java
+     A custom exception used when the user enters marks outside the valid range (0–100).
+  
+  3. GradeCalculator.java
+     Contains the logic for grade calculation and throws the custom exception when needed.
+  
+  4. Main.java
+     Handles user input, displays results, and catches errors.
 
-Validate marks using a custom exception
+How to Run:
+    1. Open a terminal
+    The program only accepts input through the terminal, not the VS Code "Output" panel.
+    
+    2. Compile the files
+    javac *.java
+    3. Run the main program
+    java Main
+    Important:
+    If you’re using VS Code, make sure the console is set to Integrated Terminal so the program can accept input.
+    
+        Example Interaction
+        Enter Student Name: Alex
+        Enter Roll Number: 12
+        Enter Marks: 85
+        
+        --- Student Details ---
+        Name: Alex
+        Roll No: 12
+        Marks: 85.0
+        Grade: B
 
-Calculate a grade based on the marks
-
-Clean separation of logic using multiple classes
-
-Proper use of OOP concepts:
-
-Classes & objects
-
-Encapsulation (private fields + getters/setters)
-
-Constructors
-
-Simple method logic
-
-Basic exception handling:
-
-try / catch
-
-InputMismatchException
-
-Custom exception: InvalidMarksException
+Why This Project Exists:
+    The goal of the project is to build confidence with basic Java programming using only the topics recently covered in class—mainly OOP and exception handling.
+    Everything is kept simple so the focus stays on good structure, clean code, and understanding the concepts rather than complexity.
