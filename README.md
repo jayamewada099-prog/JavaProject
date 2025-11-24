@@ -58,6 +58,12 @@ How to Run:
         Roll No: 12
         Marks: 85.0
         Grade: B
+Screenshots:
+<img width="691" height="521" alt="SS4" src="https://github.com/user-attachments/assets/5903b416-2606-4b49-96e9-d0724f4c1b97" />
+<img width="359" height="861" alt="SS3" src="https://github.com/user-attachments/assets/5bd32358-45a4-4e5e-8ffd-8142ad6a1704" />
+<img width="729" height="703" alt="SS2" src="https://github.com/user-attachments/assets/573b6229-a3f3-416c-94f5-9e17e41a78fd" />
+<img width="681" height="758" alt="SS1" src="https://github.com/user-attachments/assets/dce80c30-049a-4070-8b09-075aa837d0e6" />
+
 
 Why This Project Exists:
     The goal of the project is to build confidence with basic Java programming using only the topics recently covered in class—mainly OOP and exception handling.
